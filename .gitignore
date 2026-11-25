@@ -1,0 +1,11 @@
+bin/
+obj/
+*.db
+.vs/
+.venv/
+__pycache__/
+workspace/
+node_modules/
+dist/
+.angular/
+.env

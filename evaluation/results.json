@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la capitale du Viêt Nam ?",
+    "expected": "Hanoï",
+    "answer": "La capitale du Viêt Nam est Hanoï.",
+    "passages": [
+      0,
+      2,
+      4,
+      8,
+      6
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 123.4
+  },
+  {
+    "id": 2,
+    "question": "Quel fleuve irrigue la plaine fertile du nord du pays ?",
+    "expected": "Le fleuve Rouge",
+    "answer": "C'est le fleuve Rouge qui irrigue la plaine fertile du nord du Viêt Nam, où s'est enracinée l'histoire nationale et où se trouve la capitale Hanoï.",
+    "passages": [
+      0,
+      1,
+      8,
+      7,
+      2
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 92.1
+  },
+  {
+    "id": 3,
+    "question": "Quelle baie du nord est une merveille naturelle aux milliers d'îlots calcaires ?",
+    "expected": "La baie d'Hạ Long",
+    "answer": "La baie du nord qui est une merveille naturelle aux milliers d'îlots calcaires est la baie d'Hạ Long.",
+    "passages": [
+      1,
+      0,
+      8,
+      7,
+      6
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 94.3
+  },
+  {
+    "id": 4,
+    "question": "Quelle ville du centre est une ancienne cité impériale des souverains Nguyễn ?",
+    "expected": "Hué",
+    "answer": "La ville du centre qui est une ancienne cité impériale des souverains Nguyễn est Hué.",
+    "passages": [
+      1,
+      2,
+      0,
+      3,
+      4
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 103.8
+  },
+  {
+    "id": 5,
+    "question": "Quelle ville marchande est connue pour ses maisons en bois et ses lanternes de soie ?",
+    "expected": "Hội An",
+    "answer": "La ville marchande connue pour ses maisons en bois et ses lanternes de soie est Hội An.",
+    "passages": [
+      1,
+      5,
+      8,
+      7,
+      0
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 98.9
+  },
+  {
+    "id": 6,
+    "question": "Quel delta est le grenier à riz de la nation ?",
+    "expected": "Le delta du Mékong",
+    "answer": "Le delta du Mékong est le grenier à riz de la nation.",
+    "passages": [
+      1,
+      8,
+      0,
+      7,
+      2
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 103.5
+  },
+  {
+    "id": 7,
+    "question": "Quelle ville est décrite comme le moteur économique incontournable du pays ?",
+    "expected": "Hô Chi Minh-Ville",
+    "answer": "Hô Chi Minh-Ville est décrite comme le moteur économique incontournable du pays.",
+    "passages": [
+      8,
+      5,
+      1,
+      2,
+      0
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 107.3
+  },
+  {
+    "id": 8,
+    "question": "Pendant combien de temps le peuple vietnamien a-t-il résisté à la domination impériale chinoise ?",
+    "expected": "Près de mille ans",
+    "answer": "Le peuple vietnamien a résisté à la domination impériale chinoise durant près de mille ans.",
+    "passages": [
+      2,
+      4,
+      3,
+      6,
+      0
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 109.5
+  },
+  {
+    "id": 9,
+    "question": "Quel système d'écriture a été définitivement adopté grâce à la présence française ?",
+    "expected": "Le quốc ngữ, l'alphabet latin adapté à la langue tonale",
+    "answer": "Le système d'écriture définitivement adopté grâce à la présence française est le quốc ngữ, l'alphabet latin adapté à la transcription de la langue tonale vietnamienne.",
+    "passages": [
+      3,
+      2,
+      4,
+      8,
+      7
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 107.2
+  },
+  {
+    "id": 10,
+    "question": "En quelle année l'indépendance a-t-elle été proclamée ?",
+    "expected": "1945",
+    "answer": "L'indépendance du Viêt Nam a été proclamée en 1945.",
+    "passages": [
+      3,
+      4,
+      2,
+      8,
+      0
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 103.3
+  },
+  {
+    "id": 11,
+    "question": "Quelle chute a marqué l'aboutissement de la guerre d'Indochine en 1954 ?",
+    "expected": "La chute de Diên Biên Phu",
+    "answer": "La chute de Diên Biên Phu en 1954 a marqué l'aboutissement de la guerre d'Indochine.",
+    "passages": [
+      3,
+      4,
+      0,
+      2,
+      1
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 112.7
+  },
+  {
+    "id": 12,
+    "question": "Le long de quel parallèle les accords de Genève ont-ils coupé la nation en deux ?",
+    "expected": "Le dix-septième parallèle",
+    "answer": "Les accords de Genève ont coupé la nation en deux le long du dix-septième parallèle.",
+    "passages": [
+      3,
+      2,
+      4,
+      0,
+      8
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 63.6
+  },
+  {
+    "id": 13,
+    "question": "À quelle date Saïgon est-elle tombée, scellant la réunification ?",
+    "expected": "Le 30 avril 1975",
+    "answer": "Saïgon est tombée le 30 avril 1975, scellant la réunification du Viêt Nam sous l'égide du régime communiste de Hanoï.",
+    "passages": [
+      4,
+      3,
+      2,
+      0,
+      1
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 122.4
+  },
+  {
+    "id": 14,
+    "question": "Comment s'appelle le virage économique opéré par le gouvernement en 1986 ?",
+    "expected": "Đổi mới (le renouveau)",
+    "answer": "Le virage économique opéré par le gouvernement vietnamien en 1986 s'appelle le Đổi mới.",
+    "passages": [
+      4,
+      8,
+      3,
+      2,
+      5
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 112.5
+  },
+  {
+    "id": 15,
+    "question": "Quels produits agricoles font du pays l'un des premiers exportateurs mondiaux ?",
+    "expected": "Le riz, le poivre et le café robusta",
+    "answer": "Le Viêt Nam est l'un des premiers exportateurs mondiaux de riz, de poivre et de café robusta.",
+    "passages": [
+      5,
+      8,
+      7,
+      0,
+      4
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 108.7
+  },
+  {
+    "id": 16,
+    "question": "Combien d'ethnies sont reconnues dans le pays ?",
+    "expected": "Cinquante-quatre",
+    "answer": "Le pays reconnaît cinquante-quatre ethnies différentes.",
+    "passages": [
+      6,
+      5,
+      3,
+      2,
+      8
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 105.8
+  },
+  {
+    "id": 17,
+    "question": "Quel vêtement traditionnel symbolise l'élégance et la fierté vestimentaire du pays ?",
+    "expected": "L'áo dài",
+    "answer": "Le vêtement traditionnel qui symbolise l'élégance et la fierté vestimentaire du Vietnam est le délicat áo dài.",
+    "passages": [
+      6,
+      7,
+      5,
+      8,
+      1
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 116.1
+  },
+  {
+    "id": 18,
+    "question": "Quel bouillon parfumé à l'anis étoilé est un emblème national ?",
+    "expected": "Le phở",
+    "answer": "Le phở est le bouillon parfumé à l'anis étoilé qui s'érige en emblème national du Viêt Nam.",
+    "passages": [
+      7,
+      8,
+      1,
+      3,
+      0
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 113.2
+  },
+  {
+    "id": 19,
+    "question": "D'après le document, qui est un gentleman ?",
+    "expected": "Seyf",
+    "answer": "Selon le document, Seyf est un gentleman.",
+    "passages": [
+      3,
+      5,
+      7,
+      8,
+      2
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 109.4
+  },
+  {
+    "id": 20,
+    "question": "Sur quelle longueur le littoral s'étire-t-il ?",
+    "expected": "Plus de trois mille kilomètres",
+    "answer": "Le littoral vietnamien s'étire sur plus de trois mille kilomètres.",
+    "passages": [
+      0,
+      1,
+      8,
+      2,
+      3
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 61.9
+  }
+]

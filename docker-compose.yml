@@ -1,0 +1,44 @@
+name: rag-entreprise
+
+services:
+  rag-service:
+    build: ./rag-service
+    environment:
+      LLM_URL: http://host.docker.internal:8080/v1/chat/completions
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - hf-cache:/models/hf
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=5)"]
+      interval: 10s
+      timeout: 10s
+      retries: 60
+      start_period: 120s
+    restart: unless-stopped
+
+  api:
+    build: ./api
+    environment:
+      RagService__BaseUrl: http://rag-service:8000/
+      Database__Provider: Sqlite
+      ConnectionStrings__Default: Data Source=/data/rag-history.db
+    volumes:
+      - api-data:/data
+    depends_on:
+      rag-service:
+        condition: service_started
+    restart: unless-stopped
+
+  web:
+    build: ./web
+    ports:
+      - "8081:80"
+    depends_on:
+      api:
+        condition: service_started
+    restart: unless-stopped
+
+volumes:
+  hf-cache:
+  api-data:

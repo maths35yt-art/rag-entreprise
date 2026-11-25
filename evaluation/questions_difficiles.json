@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Combien d'années séparent la proclamation de l'indépendance de la prise de Saïgon ?",
+    "expected": "Trente ans (de 1945 à 1975)",
+    "keywords": [["30 ans", "trente ans", "30 années", "trente années"]]
+  },
+  {
+    "id": 2,
+    "question": "Quelles villes du centre du pays sont citées dans le document ?",
+    "expected": "Hué et Hội An",
+    "keywords": [["Hué"], ["Hội An"]]
+  },
+  {
+    "id": 3,
+    "question": "Quelle spécialité culinaire marie la baguette héritée de la France aux herbes et marinades locales ?",
+    "expected": "Le bánh mì",
+    "keywords": [["bánh mì"]]
+  },
+  {
+    "id": 4,
+    "question": "Quels arts traditionnels témoignent de la créativité née dans les villages ruraux ?",
+    "expected": "Le théâtre de marionnettes sur l'eau et le chant ca trù",
+    "keywords": [["marionnettes"], ["ca trù"]]
+  },
+  {
+    "id": 5,
+    "question": "Quelles religions composent le paysage religieux du pays ?",
+    "expected": "Le bouddhisme mahāyāna, le taoïsme populaire, le catholicisme et le caodaïsme",
+    "keywords": [["bouddhisme"], ["taoïsme"], ["catholicisme"], ["caodaïsme"]]
+  },
+  {
+    "id": 6,
+    "question": "Quelle menace pèse sur le delta à cause du changement climatique ?",
+    "expected": "La montée des eaux",
+    "keywords": [["montée des eaux", "montée du niveau"]]
+  },
+  {
+    "id": 7,
+    "question": "Quelle pratique universelle se matérialise par un autel dans chaque foyer ?",
+    "expected": "Le culte des ancêtres",
+    "keywords": [["ancêtres"]]
+  },
+  {
+    "id": 8,
+    "question": "Quelles variantes de café sont citées dans le document ?",
+    "expected": "Le café glacé au lait concentré et le café aux œufs",
+    "keywords": [["lait concentré"], ["œufs"]]
+  }
+]

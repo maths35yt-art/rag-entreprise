@@ -1,0 +1,60 @@
+<main class="shell">
+  <header class="topbar">
+    <div>
+      <h1>Assistant RAG</h1>
+      <p>Questions sur le document de référence, avec les passages utilisés pour répondre.</p>
+    </div>
+    <button type="button" class="ghost" (click)="clear()" [disabled]="busy() || entries().length === 0">
+      Effacer l'historique
+    </button>
+  </header>
+
+  @if (notice()) {
+    <p class="banner" role="alert">{{ notice() }}</p>
+  }
+
+  <section class="messages" #list aria-live="polite" aria-label="Conversation">
+    @if (entries().length === 0) {
+      <p class="empty">Aucun échange pour le moment. Pose une question ci-dessous.</p>
+    }
+    @for (entry of entries(); track entry.key) {
+      <article class="exchange">
+        <p class="bubble user">{{ entry.question }}</p>
+        @if (entry.pending) {
+          <p class="bubble bot pending">Recherche en cours</p>
+        } @else if (entry.error) {
+          <p class="bubble bot error" role="alert">{{ entry.error }}</p>
+        } @else {
+          <div class="bubble bot">
+            <p>{{ entry.answer }}</p>
+            @if (entry.passages.length > 0) {
+              <details class="sources">
+                <summary>Passages utilisés ({{ entry.passages.length }})</summary>
+                <ol>
+                  @for (passage of entry.passages; track passage.index) {
+                    <li>
+                      <span class="meta">Passage n°{{ passage.index }}, similarité {{ passage.score | number: '1.2-3' }}</span>
+                      <span class="text">{{ passage.text }}</span>
+                    </li>
+                  }
+                </ol>
+              </details>
+            }
+          </div>
+        }
+      </article>
+    }
+  </section>
+
+  <div class="composer">
+    <textarea
+      rows="2"
+      aria-label="Question"
+      placeholder="Écris ta question (Entrée pour envoyer, Maj+Entrée pour un retour à la ligne)"
+      [value]="draft()"
+      (input)="onInput($event)"
+      (keydown)="onKeydown($event)"
+    ></textarea>
+    <button type="button" (click)="send()" [disabled]="!canSend()">Envoyer</button>
+  </div>
+</main>

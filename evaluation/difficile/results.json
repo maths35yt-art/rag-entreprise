@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Combien d'années séparent la proclamation de l'indépendance de la prise de Saïgon ?",
+    "expected": "Trente ans (de 1945 à 1975)",
+    "answer": "La proclamation de l'indépendance en 1945 et la prise de Saïgon le 30 avril 1975 sont séparées par 30 ans.",
+    "passages": [
+      3,
+      4,
+      2,
+      0,
+      8
+    ],
+    "tools": 0,
+    "retrieved": false,
+    "correct": true,
+    "cause": "",
+    "seconds": 96.9
+  },
+  {
+    "id": 2,
+    "question": "Quelles villes du centre du pays sont citées dans le document ?",
+    "expected": "Hué et Hội An",
+    "answer": "Les villes du centre du pays citées dans le document sont Hué et Hội An.",
+    "passages": [
+      1,
+      0,
+      8,
+      3,
+      2
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 52.3
+  },
+  {
+    "id": 3,
+    "question": "Quelle spécialité culinaire marie la baguette héritée de la France aux herbes et marinades locales ?",
+    "expected": "Le bánh mì",
+    "answer": "La spécialité culinaire qui marie la baguette héritée de la France aux herbes et marinades locales est le bánh mì.",
+    "passages": [
+      7,
+      8,
+      1,
+      2,
+      6
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 68.1
+  },
+  {
+    "id": 4,
+    "question": "Quels arts traditionnels témoignent de la créativité née dans les villages ruraux ?",
+    "expected": "Le théâtre de marionnettes sur l'eau et le chant ca trù",
+    "answer": "Le théâtre de marionnettes sur l'eau et le chant ca trù sont les arts traditionnels qui témoignent de la créativité née au cœur des villages ruraux vietnamiens.",
+    "passages": [
+      6,
+      7,
+      5,
+      8,
+      2
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 84.0
+  },
+  {
+    "id": 5,
+    "question": "Quelles religions composent le paysage religieux du pays ?",
+    "expected": "Le bouddhisme mahāyāna, le taoïsme populaire, le catholicisme et le caodaïsme",
+    "answer": "Le paysage religieux du Viêt Nam associe harmonieusement le bouddhisme mahāyāna, le taoïsme populaire, le catholicisme et le caodaïsme.",
+    "passages": [
+      5,
+      6,
+      0,
+      1,
+      7
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 120.7
+  },
+  {
+    "id": 6,
+    "question": "Quelle menace pèse sur le delta à cause du changement climatique ?",
+    "expected": "La montée des eaux",
+    "answer": "La menace qui pèse sur le delta du Mékong à cause du changement climatique est la montée des eaux.",
+    "passages": [
+      8,
+      1,
+      0,
+      2,
+      3
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 119.3
+  },
+  {
+    "id": 7,
+    "question": "Quelle pratique universelle se matérialise par un autel dans chaque foyer ?",
+    "expected": "Le culte des ancêtres",
+    "answer": "Le culte des ancêtres est la pratique universelle qui se matérialise par la présence d'un autel familial dans chaque foyer.",
+    "passages": [
+      5,
+      6,
+      7,
+      3,
+      8
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 120.4
+  },
+  {
+    "id": 8,
+    "question": "Quelles variantes de café sont citées dans le document ?",
+    "expected": "Le café glacé au lait concentré et le café aux œufs",
+    "answer": "Les variantes de café citées dans le document sont le café glacé, le café au lait concentré et le café aux œufs.",
+    "passages": [
+      8,
+      7,
+      5,
+      0,
+      6
+    ],
+    "tools": 0,
+    "retrieved": true,
+    "correct": true,
+    "cause": "",
+    "seconds": 126.1
+  }
+]

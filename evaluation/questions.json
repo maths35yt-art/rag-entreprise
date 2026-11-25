@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Quelle est la capitale du Viêt Nam ?",
+    "expected": "Hanoï",
+    "keywords": [["Hanoï"]]
+  },
+  {
+    "id": 2,
+    "question": "Quel fleuve irrigue la plaine fertile du nord du pays ?",
+    "expected": "Le fleuve Rouge",
+    "keywords": [["Rouge"]]
+  },
+  {
+    "id": 3,
+    "question": "Quelle baie du nord est une merveille naturelle aux milliers d'îlots calcaires ?",
+    "expected": "La baie d'Hạ Long",
+    "keywords": [["Hạ Long", "Halong"]]
+  },
+  {
+    "id": 4,
+    "question": "Quelle ville du centre est une ancienne cité impériale des souverains Nguyễn ?",
+    "expected": "Hué",
+    "keywords": [["Hué"]]
+  },
+  {
+    "id": 5,
+    "question": "Quelle ville marchande est connue pour ses maisons en bois et ses lanternes de soie ?",
+    "expected": "Hội An",
+    "keywords": [["Hội An"]]
+  },
+  {
+    "id": 6,
+    "question": "Quel delta est le grenier à riz de la nation ?",
+    "expected": "Le delta du Mékong",
+    "keywords": [["Mékong"]]
+  },
+  {
+    "id": 7,
+    "question": "Quelle ville est décrite comme le moteur économique incontournable du pays ?",
+    "expected": "Hô Chi Minh-Ville",
+    "keywords": [["Hô Chi Minh"]]
+  },
+  {
+    "id": 8,
+    "question": "Pendant combien de temps le peuple vietnamien a-t-il résisté à la domination impériale chinoise ?",
+    "expected": "Près de mille ans",
+    "keywords": [["mille ans", "1000 ans", "1 000 ans", "millénaire"]]
+  },
+  {
+    "id": 9,
+    "question": "Quel système d'écriture a été définitivement adopté grâce à la présence française ?",
+    "expected": "Le quốc ngữ, l'alphabet latin adapté à la langue tonale",
+    "keywords": [["quốc ngữ", "alphabet latin"]]
+  },
+  {
+    "id": 10,
+    "question": "En quelle année l'indépendance a-t-elle été proclamée ?",
+    "expected": "1945",
+    "keywords": [["1945"]]
+  },
+  {
+    "id": 11,
+    "question": "Quelle chute a marqué l'aboutissement de la guerre d'Indochine en 1954 ?",
+    "expected": "La chute de Diên Biên Phu",
+    "keywords": [["Diên Biên Phu"]]
+  },
+  {
+    "id": 12,
+    "question": "Le long de quel parallèle les accords de Genève ont-ils coupé la nation en deux ?",
+    "expected": "Le dix-septième parallèle",
+    "keywords": [["dix-septième", "17e", "17ème", "17"]]
+  },
+  {
+    "id": 13,
+    "question": "À quelle date Saïgon est-elle tombée, scellant la réunification ?",
+    "expected": "Le 30 avril 1975",
+    "keywords": [["30 avril"], ["1975"]]
+  },
+  {
+    "id": 14,
+    "question": "Comment s'appelle le virage économique opéré par le gouvernement en 1986 ?",
+    "expected": "Đổi mới (le renouveau)",
+    "keywords": [["Đổi mới"]]
+  },
+  {
+    "id": 15,
+    "question": "Quels produits agricoles font du pays l'un des premiers exportateurs mondiaux ?",
+    "expected": "Le riz, le poivre et le café robusta",
+    "keywords": [["riz"], ["poivre"], ["café"]]
+  },
+  {
+    "id": 16,
+    "question": "Combien d'ethnies sont reconnues dans le pays ?",
+    "expected": "Cinquante-quatre",
+    "keywords": [["cinquante-quatre", "54"]]
+  },
+  {
+    "id": 17,
+    "question": "Quel vêtement traditionnel symbolise l'élégance et la fierté vestimentaire du pays ?",
+    "expected": "L'áo dài",
+    "keywords": [["áo dài"]]
+  },
+  {
+    "id": 18,
+    "question": "Quel bouillon parfumé à l'anis étoilé est un emblème national ?",
+    "expected": "Le phở",
+    "keywords": [["phở"]]
+  },
+  {
+    "id": 19,
+    "question": "D'après le document, qui est un gentleman ?",
+    "expected": "Seyf",
+    "keywords": [["Seyf"]]
+  },
+  {
+    "id": 20,
+    "question": "Sur quelle longueur le littoral s'étire-t-il ?",
+    "expected": "Plus de trois mille kilomètres",
+    "keywords": [["trois mille", "3000", "3 000"]]
+  }
+]
