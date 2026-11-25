@@ -23,6 +23,7 @@ Le dossier `rag-service` contient le service FastAPI (`app.py`), qui enveloppe l
 ## Lancer avec Docker
 
 Il faut Docker Desktop et un llama-server démarré sur la machine hôte, par exemple :
+Le modèle utilisé ici, Qwen3.5-9B au format GGUF, a été choisis sur hugging face
 
 ```powershell
 ./llama-server -m Qwen3.5-9B-UD-Q4_K_XL.gguf -c 8192 -t 8 --port 8080
@@ -82,7 +83,7 @@ python evaluate.py
 python evaluate.py --questions questions_difficiles.json --output difficile
 ```
 
-Le premier jeu donne 20 réponses correctes sur 20 et le second 8 sur 8, avec un temps de réponse moyen d'environ 100 secondes par question sur processeur. Le passage utile était présent dans les passages récupérés pour 20 questions sur 20, puis 7 sur 8. L'écart du second jeu correspond à la question de calcul, dont la réponse (trente ans) n'est écrite nulle part dans le texte : il s'agit d'une limite de la mesure, qui cherche la réponse attendue dans les passages, et non d'une erreur de récupération. Les rapports complets, avec le tableau des erreurs (vide pour l'instant), sont dans `evaluation/report.md` et `evaluation/difficile/report.md`.
+Le premier jeu donne 20 réponses correctes sur 20 et le second 8 sur 8, avec un temps de réponse moyen d'environ 100 secondes par question sur processeur. Le passage utile était présent dans les passages récupérés pour 20 questions sur 20, puis 8 sur 8. L'écart du second jeu correspond à la question de calcul, dont la réponse (trente ans) n'est écrite nulle part dans le texte : il s'agit d'une limite de la mesure, qui cherche la réponse attendue dans les passages, et non d'une erreur de récupération. Les rapports complets, avec le tableau des erreurs (vide pour l'instant), sont dans `evaluation/report.md` et `evaluation/difficile/report.md`.
 
 ## Choix techniques
 
